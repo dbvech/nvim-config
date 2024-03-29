@@ -20,11 +20,11 @@ return {
 				relculright = true,
 				segments = {
 					{
-						sign = { name = { ".*" }, maxwidth = 3, colwidth = 1 },
+						sign = { name = { ".*" }, maxwidth = 1, colwidth = 1 },
 						click = "v:lua.ScSa",
 					},
 					{
-						text = { builtin.lnumfunc },
+						text = { " ", builtin.lnumfunc },
 						condition = { true, builtin.not_empty },
 						click = "v:lua.ScLa",
 					},
